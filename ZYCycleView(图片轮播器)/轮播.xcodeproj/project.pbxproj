@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		627947EF1FC313AC007776D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 627947EE1FC313AC007776D6 /* AppDelegate.m */; };
+		627947F21FC313AC007776D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 627947F11FC313AC007776D6 /* ViewController.m */; };
+		627947F71FC313AC007776D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 627947F61FC313AC007776D6 /* Assets.xcassets */; };
+		627947FA1FC313AC007776D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 627947F81FC313AC007776D6 /* LaunchScreen.storyboard */; };
+		627947FD1FC313AC007776D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 627947FC1FC313AC007776D6 /* main.m */; };
+		627948051FC314F3007776D6 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 627948041FC314F3007776D6 /* NavigationController.m */; };
+		627948091FC315A7007776D6 /* ZYCycleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 627948081FC315A7007776D6 /* ZYCycleView.m */; };
+		6279480C1FC315FB007776D6 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 6279480B1FC315FB007776D6 /* UIColor+Hex.m */; };
+		627948121FC316F0007776D6 /* ZYCellFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 627948111FC316F0007776D6 /* ZYCellFlowLayout.m */; };
+		627948151FC31C64007776D6 /* ZYCycleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 627948141FC31C64007776D6 /* ZYCycleCell.m */; };
+		627948181FC333A6007776D6 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 627948171FC333A6007776D6 /* DemoViewController.m */; };
+		B42ED7449C75C6911CDD5A78 /* libPods-轮播.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C03240FBF527B1635C7D09BC /* libPods-轮播.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		523929F9BD683449DC835CC0 /* Pods-轮播.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-轮播.debug.xcconfig"; path = "Pods/Target Support Files/Pods-轮播/Pods-轮播.debug.xcconfig"; sourceTree = "<group>"; };
+		627947EA1FC313AC007776D6 /* 轮播.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "轮播.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		627947ED1FC313AC007776D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		627947EE1FC313AC007776D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		627947F01FC313AC007776D6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		627947F11FC313AC007776D6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		627947F61FC313AC007776D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		627947F91FC313AC007776D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		627947FB1FC313AC007776D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		627947FC1FC313AC007776D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		627948031FC314F3007776D6 /* NavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		627948041FC314F3007776D6 /* NavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+		627948071FC315A7007776D6 /* ZYCycleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYCycleView.h; sourceTree = "<group>"; };
+		627948081FC315A7007776D6 /* ZYCycleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYCycleView.m; sourceTree = "<group>"; };
+		6279480A1FC315FB007776D6 /* UIColor+Hex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		6279480B1FC315FB007776D6 /* UIColor+Hex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		627948101FC316F0007776D6 /* ZYCellFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYCellFlowLayout.h; sourceTree = "<group>"; };
+		627948111FC316F0007776D6 /* ZYCellFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYCellFlowLayout.m; sourceTree = "<group>"; };
+		627948131FC31C64007776D6 /* ZYCycleCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYCycleCell.h; sourceTree = "<group>"; };
+		627948141FC31C64007776D6 /* ZYCycleCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYCycleCell.m; sourceTree = "<group>"; };
+		627948161FC333A6007776D6 /* DemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		627948171FC333A6007776D6 /* DemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		C03240FBF527B1635C7D09BC /* libPods-轮播.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-轮播.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0A01544F65E724B78D49740 /* Pods-轮播.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-轮播.release.xcconfig"; path = "Pods/Target Support Files/Pods-轮播/Pods-轮播.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		627947E71FC313AC007776D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B42ED7449C75C6911CDD5A78 /* libPods-轮播.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		627947E11FC313AC007776D6 = {
+			isa = PBXGroup;
+			children = (
+				627947EC1FC313AC007776D6 /* 轮播 */,
+				627947EB1FC313AC007776D6 /* Products */,
+				FD443B72CCC98ABDEF2BE953 /* Pods */,
+				7681B8A053515F510984BE85 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		627947EB1FC313AC007776D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				627947EA1FC313AC007776D6 /* 轮播.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		627947EC1FC313AC007776D6 /* 轮播 */ = {
+			isa = PBXGroup;
+			children = (
+				627947ED1FC313AC007776D6 /* AppDelegate.h */,
+				627947EE1FC313AC007776D6 /* AppDelegate.m */,
+				627948031FC314F3007776D6 /* NavigationController.h */,
+				627948041FC314F3007776D6 /* NavigationController.m */,
+				627947F01FC313AC007776D6 /* ViewController.h */,
+				627947F11FC313AC007776D6 /* ViewController.m */,
+				627948161FC333A6007776D6 /* DemoViewController.h */,
+				627948171FC333A6007776D6 /* DemoViewController.m */,
+				627948061FC3155C007776D6 /* ZYCycleView */,
+				627947F61FC313AC007776D6 /* Assets.xcassets */,
+				627947F81FC313AC007776D6 /* LaunchScreen.storyboard */,
+				627947FB1FC313AC007776D6 /* Info.plist */,
+				627947FC1FC313AC007776D6 /* main.m */,
+			);
+			path = "轮播";
+			sourceTree = "<group>";
+		};
+		627948061FC3155C007776D6 /* ZYCycleView */ = {
+			isa = PBXGroup;
+			children = (
+				627948071FC315A7007776D6 /* ZYCycleView.h */,
+				627948081FC315A7007776D6 /* ZYCycleView.m */,
+				627948131FC31C64007776D6 /* ZYCycleCell.h */,
+				627948141FC31C64007776D6 /* ZYCycleCell.m */,
+				627948101FC316F0007776D6 /* ZYCellFlowLayout.h */,
+				627948111FC316F0007776D6 /* ZYCellFlowLayout.m */,
+				6279480A1FC315FB007776D6 /* UIColor+Hex.h */,
+				6279480B1FC315FB007776D6 /* UIColor+Hex.m */,
+			);
+			path = ZYCycleView;
+			sourceTree = "<group>";
+		};
+		7681B8A053515F510984BE85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C03240FBF527B1635C7D09BC /* libPods-轮播.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD443B72CCC98ABDEF2BE953 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				523929F9BD683449DC835CC0 /* Pods-轮播.debug.xcconfig */,
+				D0A01544F65E724B78D49740 /* Pods-轮播.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		627947E91FC313AC007776D6 /* 轮播 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 627948001FC313AC007776D6 /* Build configuration list for PBXNativeTarget "轮播" */;
+			buildPhases = (
+				5D4B5AE54F688A4756E2ADF0 /* [CP] Check Pods Manifest.lock */,
+				627947E61FC313AC007776D6 /* Sources */,
+				627947E71FC313AC007776D6 /* Frameworks */,
+				627947E81FC313AC007776D6 /* Resources */,
+				D006B61A23ADE39AC3B37A47 /* [CP] Embed Pods Frameworks */,
+				F46DE8CA6149EE7557EC3E0D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "轮播";
+			productName = "轮播";
+			productReference = 627947EA1FC313AC007776D6 /* 轮播.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		627947E21FC313AC007776D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = zhouyu;
+				TargetAttributes = {
+					627947E91FC313AC007776D6 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 627947E51FC313AC007776D6 /* Build configuration list for PBXProject "轮播" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 627947E11FC313AC007776D6;
+			productRefGroup = 627947EB1FC313AC007776D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				627947E91FC313AC007776D6 /* 轮播 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		627947E81FC313AC007776D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				627947FA1FC313AC007776D6 /* LaunchScreen.storyboard in Resources */,
+				627947F71FC313AC007776D6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D4B5AE54F688A4756E2ADF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-轮播-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D006B61A23ADE39AC3B37A47 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-轮播/Pods-轮播-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F46DE8CA6149EE7557EC3E0D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-轮播/Pods-轮播-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		627947E61FC313AC007776D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				627947F21FC313AC007776D6 /* ViewController.m in Sources */,
+				6279480C1FC315FB007776D6 /* UIColor+Hex.m in Sources */,
+				627948051FC314F3007776D6 /* NavigationController.m in Sources */,
+				627948151FC31C64007776D6 /* ZYCycleCell.m in Sources */,
+				627948121FC316F0007776D6 /* ZYCellFlowLayout.m in Sources */,
+				627948091FC315A7007776D6 /* ZYCycleView.m in Sources */,
+				627948181FC333A6007776D6 /* DemoViewController.m in Sources */,
+				627947FD1FC313AC007776D6 /* main.m in Sources */,
+				627947EF1FC313AC007776D6 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		627947F81FC313AC007776D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				627947F91FC313AC007776D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		627947FE1FC313AC007776D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		627947FF1FC313AC007776D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		627948011FC313AC007776D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 523929F9BD683449DC835CC0 /* Pods-轮播.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WRNUC3KJ6A;
+				INFOPLIST_FILE = "轮播/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.vocoor.com.--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		627948021FC313AC007776D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0A01544F65E724B78D49740 /* Pods-轮播.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WRNUC3KJ6A;
+				INFOPLIST_FILE = "轮播/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.vocoor.com.--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		627947E51FC313AC007776D6 /* Build configuration list for PBXProject "轮播" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				627947FE1FC313AC007776D6 /* Debug */,
+				627947FF1FC313AC007776D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		627948001FC313AC007776D6 /* Build configuration list for PBXNativeTarget "轮播" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				627948011FC313AC007776D6 /* Debug */,
+				627948021FC313AC007776D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 627947E21FC313AC007776D6 /* Project object */;
+}
