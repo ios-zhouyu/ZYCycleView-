@@ -64,5 +64,5 @@ ZYCycleView(图片轮播器)
 </p>
 
 <p align="center" >
-<img src="Docs/00002.png" title="效果图">
+<img src="Docs/0ZYCycleView轮播图.gif" title="效果图">
 </p>
